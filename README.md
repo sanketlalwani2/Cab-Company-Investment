@@ -42,3 +42,41 @@ You can install the required libraries using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+
+```
+## Usage
+
+The analysis is performed in a Jupyter Notebook. To run the notebook:
+
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Open the Jupyter Notebook by running `jupyter notebook` in your terminal.
+4. Open the `Cab Industry Analysis.ipynb` notebook and run the cells sequentially.
+
+## Analysis
+
+The analysis includes the following steps:
+
+1. **Data Loading:** Importing datasets using pandas.
+2. **Data Cleaning:** Handling missing values and correcting data types.
+3. **Data Merging:** Combining different datasets for a comprehensive view.
+4. **Feature Engineering:** Creating new features like profit, profit percentage, and users' percentage.
+5. **Data Visualization:** Generating plots to visualize the data and derive insights.
+
+## Results
+
+The analysis provided insights into:
+
+- Average profit per trip.
+- Cities with the highest and lowest number of users.
+- Distribution of trip costs and prices.
+- Impact of holidays on cab usage.
+
+## Contributing
+
+Contributions are welcome. Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
